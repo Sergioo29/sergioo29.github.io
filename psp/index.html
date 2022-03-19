@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
 
     <header>
@@ -23,27 +24,45 @@
         </nav>
     </header>
 
-    <br> <br>
 
-    <img class="hero" src="images/7.png" width= 650px alt="Main background">
+    <main>
+            <!-- Trigger the Modal -->
+    <img id="myImg" src="images/7.png" alt="A Fierce Fight on the Fantasy Fields">
 
-    <p class="home summary">
-        This website contains the plot summary, character biographies, important scenes, geography, and soundtracks. 
-        On the header of this site, you will find each section mentioned as well as the page to contribute to this project.
-        I will not ask for a specific value, you can donate with our hearth's content. Since I only have a draft, I`m still 
-        open to feedback on what we can do with it. I have plans to make a videogame, or make a film, or even a stream 
-        platform series. After seeing our story and all the resources we already have, if you decide to contribute, I will 
-        put your name on the Credits of the final product.
-    </p>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
 
-    <button>Donate</button>
+      <!-- The Close Button -->
+     <span class="close">&times;</span>
+
+      <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+     <!-- Modal Caption (Image Text) -->
+     <div id="caption"></div>
+    </div>
+    
+<script src="component.js"></script>
+
+        <p class="home summary">
+            This website contains the plot summary, character biographies, important scenes, geography, and soundtracks. 
+            On the header of this site, you will find each section mentioned as well as the page to contribute to this project.
+            I will not ask for a specific value, you can donate with our hearth's content. Since I only have a draft, I`m still 
+            open to feedback on what we can do with it. I have plans to make a videogame, or make a film, or even a stream 
+            platform series. After seeing our story and all the resources we already have, if you decide to contribute, I will 
+            put your name on the Credits of the final product.
+        </p>
+
+        <button>Donate</button>
+
+    </main>
 
     <footer>
         <h3>Sergio Personal Site &copy; 2022 - Sergio Henrique</h3>
         <h3><a href="site-plan.html">Site Plan</a></h3>
     </footer>
-    
-    <br> <br>
+
+    <script src="component.js"></script>
 
 </body>
 </html>
