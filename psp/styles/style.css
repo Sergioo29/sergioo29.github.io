@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Kanit&family=Press+Start+2P&display=swap');
 
 body{
-    background-color: darkgreen;
+    background-color: darkslategray;
     color: whitesmoke;
     font-family: "Kanit", "sans-seriff";
     margin: 0;
@@ -24,15 +24,17 @@ header{
 
 nav{
     display: flex;
+    align-items: center;
     justify-content: space-around;
     margin: 10px;
 }
 a { 
-    color: gold; 
+    color:  #74dbd8; 
     text-decoration: none;
     font-size: larger;
+    padding: 10px;
 }
-a:hover { background-color:  gold; color: darkred; }
+a:hover { background-color:  #74dbd8; color: indigo; }
 
 /*******************************************************************************
 Home
@@ -132,15 +134,17 @@ p{
 }
 
 button{
-    background-color: darkred;
-    color: gold;
+    background-color: indigo;
+    color: #74dbd8;
     font-size: larger;
     font-family: "Bungee", "sans-seriff";
     grid-column: 2/3;
     margin-left: 25%;
     margin-right: 25%;
     padding: 3%;
+    border-radius: 25%;
 }
+button:hover{ background-color:  #74dbd8; color: indigo; }
 
 /*******************************************************************************
 Story
@@ -152,18 +156,18 @@ Story
   justify-items: center;
   
 }
+
 .storytitle{
   grid-column: 2/3;
   display: flex;
   margin: 0 auto;
-  color: gold;
 }
 
 .storyimg1{
    margin: 20px;
    grid-column: 1/2;
    grid-row: 2/4;
-   border: 10px solid indigo;
+   border: 5px solid indigo;
    box-shadow: 5px 5px 10px black;
 
   }
@@ -172,10 +176,32 @@ Story
    margin: 10px;
    grid-column: 3/4;
    grid-row: 3/4;
-   border: 10px solid indigo;
+   border: 5px solid indigo;
    box-shadow: 5px 5px 10px black;
   }
 
+
+/*******************************************************************************
+Characters
+*******************************************************************************/
+.charactersmain{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  justify-items: right;
+  padding: 2% 10%;
+  gap: 50px;
+}
+
+.sejop, .kashp, .vitop, .mizop, .catyp {
+  border: 5px solid indigo;
+  box-shadow: 5px 5px 10px black
+}
+
+.charactitle{
+  display: flex;
+  justify-content: center;
+}
 
 
 /*******************************************************************************
