@@ -1,0 +1,88 @@
+
+@media screen and (max-width: 1200px) {
+
+
+        /************* Main Tags **********************************/
+
+        
+        main{
+            margin: 20px 60px;
+           
+        }
+        
+        /*****************Header***********************************/
+
+        
+        /*****************Nav***********************************/
+        
+        
+        
+        
+        /*************** Shared Between Pages **********************/
+
+       
+        /*************** Home Page *********************************/
+
+
+        .card-img{
+            transition: none;
+        }
+        .card-img:hover{
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        #weather{
+            
+            text-shadow: 1px 1px 1px rgb(101, 101, 101);
+            margin: 50px 20%;
+            border-radius: 100px;
+        
+        }
+
+        
+        /************* Slideshow **********************************************/
+    
+        
+        
+        /********************* Temples Page *********************************/
+        .cards section{
+            margin: 70px 0px;
+        }
+
+        .cards img{
+            width: 70%;
+        }
+        
+        
+        /***************** Services Page ****************************/
+        .service-grid{
+            display: block;
+            margin-bottom: 120px;
+            }
+        
+            .service-img{
+                transition: none;
+                width: 60%;
+                margin-top: 100px;
+            }
+            .service-img:hover{
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            
+       
+        
+        
+        /***************** Reservation Page ****************************/
+        #reservationGrid{
+            display: block;
+            margin: 20px 10%;
+        }
+        
+        
+        /*************** Footer  ***********************************/    
+      
+        
+}

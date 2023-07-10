@@ -1,0 +1,141 @@
+
+    @media screen and (max-width: 900px) {
+
+          /************* Main Tags **********************************/
+
+        
+          main{
+            margin: 20px 25px;
+           
+        }
+
+          /*****************Header***********************************/
+
+        
+        /*****************Nav***********************************/
+        nav a:nth-child(even){
+            background-color: #b47f92;
+        }
+        
+        nav a:nth-child(odd){
+            background-color: #8f6574;
+        }
+
+        nav, footer {
+            flex-direction: column;
+        }
+        nav a {
+            display: block;
+            padding: 15px;
+        }
+        
+        
+        
+/*************** Shared Between Pages **********************/
+
+       
+/*************** Home Page *********************************/
+        #hero-box{
+            display: none;
+        }
+
+        #hero, .home-grid {
+            display: block;
+            height: auto;
+        }
+      
+        #hero {
+            margin-top: 0px;
+        }
+        #hero-msg{
+            border-radius: 0px;
+            margin-top: -10px;
+        }
+        #hero-msg h4 {
+            display: none;
+        }
+        .home-title {
+            font-size: 25px;
+            color: #6f7364;
+        }
+        
+        #background {
+            display: none;
+        }
+        .mountains, .msg {
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }        
+
+        .msg{
+            margin-bottom: 80px;
+        }
+
+        #weather{
+            
+            text-shadow: 1px 1px 1px rgb(101, 101, 101);
+            margin: 50px 8%;
+            border-radius: 100px;
+        
+        }
+        
+/************* Slideshow **********************************************/
+    
+        
+        
+/********************* Temples Page *********************************/
+.cards {
+   display: block;
+}
+
+
+.cards img{
+    width: 70%;
+}
+
+.cards section{
+    margin-bottom:  300px;
+}
+        
+        
+/***************** Services Page ****************************/
+#missionaryGrid, #receptionGrid{
+    display: block;
+    gap: 20px;
+    }
+    
+    .missionaryImg, .receptionImg{
+    width: 90%;
+    margin: 50px 0px;
+    }
+
+    .receptionText{
+        margin-bottom: 100px;
+    }
+        
+/***************** Reservation Page ****************************/
+
+#reservationGrid{
+    margin: 20px 0px;
+}
+
+    #reservationGrid img{
+        margin: 50px 0px;
+    }
+
+    fieldset{
+        margin: 50px 0px;
+    }
+
+    textarea{
+        width: 100%;
+    }
+        
+        
+/*************** Footer  ***********************************/  
+        footer {
+            margin-top: 80px;
+            text-align: center;
+        } 
+    }
